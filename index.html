@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>View Funny Animals</title>
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Added link to the css style sheet -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <!--Added link to the Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Chivo|Mali" rel="stylesheet">
+
+    <!--Added link to the fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+</head>
+
+<body>
+    <header>
+
+        <h1>View Funny holiday celebrations <i class="far fa-grin-stars"></i> <i class="far fa-smile-beam"></i> <i
+                class="far fa-grin-squint-tears"></i></h1>
+    </header>
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-2">
+            </div>
+
+            <div class="col-md-10">
+                <div id="buttons-view"></div>
+            </div>
+
+            <div class="col-md-2">
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3">
+            </div>
+
+            <div class="col-md-6">
+                <form id="holiday-form">
+                    <label for="holiday-input">Add a holiday to view more funny videos, Yo! &nbsp;<i class="far fa-hand-point-right"></i>
+                    </label>
+                    <input type="text" id="holiday-input">
+
+                    <input id="add-holiday" type="submit" data-holiday="halloween" value="Added! :) ">
+                </form>
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-2">
+            </div>
+
+            <div id="display" class="clearfix">
+
+                <div id="holiday-here" class="column" data-holiday="holiday"></div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+
+
+    </div>
+
+    </div>
+    <!--Added link to the JavaScript -->
+    <script type="text/javascript" src="./script.js"></script>
+
+
+    </div>
+</body>
+
+</html>
